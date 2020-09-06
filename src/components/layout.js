@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "modern-css-reset"
 
 import { rhythm, scale } from "../utils/typography"
 
