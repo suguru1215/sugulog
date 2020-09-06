@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Sugulog`,
     author: {
       name: `Suguru Nishimura`,
       summary: `東京都内でフロントエンドエンジニアをしています。`,
@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Sugulog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
