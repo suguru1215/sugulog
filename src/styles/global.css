@@ -1,0 +1,73 @@
+@import url(https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp-noto.min.css);
+
+html {
+  background-color: #fff;
+}
+
+body {
+  color: #222;
+  font-family: "Lato", YakuHanJP_Noto, "Noto Sans JP", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Lato", YakuHanJP_Noto, "Noto Sans JP", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.666;
+  margin-bottom: 24px;
+}
+
+a {
+  color: #4040ff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #0073af;
+  text-decoration: none;
+}
+
+/* blog article */
+.blog-post + .blog-post {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #efefef;
+}
+
+.blog-post h3 > a {
+  color: #222;
+}
+
+.blog-post h3 > a:hover,
+.blog-post h3 > a:focus {
+  opacity: 0.8;
+}
+
+.blog-post section {
+  margin-top: 8px;
+}
+
+footer {
+  margin-top: 80px;
+  text-align: right;
+}
+
+/* blog content */
+.blog-content p {
+  margin-bottom: 24px;
+}

@@ -3,7 +3,7 @@ module.exports = {
     title: `Sugulog`,
     author: {
       name: `Suguru Nishimura`,
-      summary: `東京都内でフロントエンドエンジニアをしています。`,
+      summary: `中目黒/食べ歩き/観葉植物/自然/旅行/コーヒー/広告代理店で働くフロントエンドエンジニア`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -11,6 +11,15 @@ module.exports = {
       twitter: `suguru1215`,
     },
   },
+  plugins: [
+    {
+      resolve: "gatsby-theme-blog",
+      options: {
+        preset: "@theme-ui/preset-funk",
+        prismPreset: "prism-okaidia",
+      },
+    },
+  ],
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -66,7 +75,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
